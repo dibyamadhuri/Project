@@ -1,5 +1,8 @@
 package com.severstal.dto;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class ProductDto {
 	private int id;
 	private String name;
