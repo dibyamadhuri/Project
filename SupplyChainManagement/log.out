@@ -1,0 +1,714 @@
+Log4j addition
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@a74868d: startup date [Sat Sep 25 10:15:45 IST 2021]; root of context hierarchy
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Loading XML bean definitions from class path resource [Beans.xml]
+Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+Loading schema mappings from [META-INF/spring.schemas]
+Loaded schema mappings: {http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-4.3.xsd=org/springframework/cache/config/spring-cache-4.3.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-4.3.xsd=org/springframework/beans/factory/xml/spring-tool-4.3.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-4.2.xsd=org/springframework/beans/factory/xml/spring-util-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.2.xsd=org/springframework/beans/factory/xml/spring-beans-4.2.xsd, http://www.springframework.org/schema/cache/spring-cache-4.1.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-4.1.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/task/spring-task-4.3.xsd=org/springframework/scheduling/config/spring-task-4.3.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.2.xsd=org/springframework/jdbc/config/spring-jdbc-4.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.3.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.3.xsd, http://www.springframework.org/schema/aop/spring-aop-4.2.xsd=org/springframework/aop/config/spring-aop-4.2.xsd, http://www.springframework.org/schema/context/spring-context-4.1.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.2.xsd=org/springframework/ejb/config/spring-jee-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.1.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-4.1.xsd=org/springframework/aop/config/spring-aop-4.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.3.xsd, http://www.springframework.org/schema/lang/spring-lang-4.1.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.3.xsd=org/springframework/context/config/spring-context-4.3.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.3.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-4.2.xsd=org/springframework/transaction/config/spring-tx-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.3.xsd=org/springframework/scripting/config/spring-lang-4.3.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.3.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.3.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/util/spring-util-4.3.xsd=org/springframework/beans/factory/xml/spring-util-4.3.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.3.xsd=org/springframework/jdbc/config/spring-jdbc-4.3.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache-4.2.xsd=org/springframework/cache/config/spring-cache-4.2.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.3.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.1.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/util/spring-util-4.1.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.3.xsd, http://www.springframework.org/schema/context/spring-context-4.2.xsd=org/springframework/context/config/spring-context-4.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.3.xsd=org/springframework/ejb/config/spring-jee-4.3.xsd, http://www.springframework.org/schema/aop/spring-aop-4.3.xsd=org/springframework/aop/config/spring-aop-4.3.xsd, http://www.springframework.org/schema/beans/spring-beans-4.3.xsd=org/springframework/beans/factory/xml/spring-beans-4.3.xsd, http://www.springframework.org/schema/beans/spring-beans-4.1.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-4.2.xsd=org/springframework/beans/factory/xml/spring-tool-4.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.3.xsd, http://www.springframework.org/schema/task/spring-task-4.2.xsd=org/springframework/scheduling/config/spring-task-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.3.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/task/spring-task-4.1.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.3.xsd=org/springframework/transaction/config/spring-tx-4.3.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.3.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-4.1.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-4.2.xsd=org/springframework/scripting/config/spring-lang-4.2.xsd}
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.3.xsd
+Loading bean definitions
+Neither XML 'id' nor 'name' specified - using generated bean name [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0]
+Loaded 6 bean definitions from location pattern [Beans.xml]
+Bean factory for org.springframework.context.support.ClassPathXmlApplicationContext@a74868d: org.springframework.beans.factory.support.DefaultListableBeanFactory@2002fc1d: defining beans [dataSource,productService,productDao,hibernateTemplate,sessionFactory,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0]; root of factory hierarchy
+Creating shared instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+Creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+Eagerly caching bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+Loading properties file from class path resource [database.properties]
+Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@550dbc7a]
+Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@71a8adcf]
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2002fc1d: defining beans [dataSource,productService,productDao,hibernateTemplate,sessionFactory,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0]; root of factory hierarchy
+Creating shared instance of singleton bean 'dataSource'
+Creating instance of bean 'dataSource'
+Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+Finished creating instance of bean 'dataSource'
+Creating shared instance of singleton bean 'productService'
+Creating instance of bean 'productService'
+Eagerly caching bean 'productService' to allow for resolving potential circular references
+Creating shared instance of singleton bean 'productDao'
+Creating instance of bean 'productDao'
+Eagerly caching bean 'productDao' to allow for resolving potential circular references
+Creating shared instance of singleton bean 'hibernateTemplate'
+Creating instance of bean 'hibernateTemplate'
+Eagerly caching bean 'hibernateTemplate' to allow for resolving potential circular references
+Creating shared instance of singleton bean 'sessionFactory'
+Creating instance of bean 'sessionFactory'
+Eagerly caching bean 'sessionFactory' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'dataSource'
+Invoking afterPropertiesSet() on bean with name 'sessionFactory'
+Logging Provider: org.jboss.logging.Log4jLoggerProvider
+Adding type registration boolean -> org.hibernate.type.BooleanType@3e0e1046
+Adding type registration boolean -> org.hibernate.type.BooleanType@3e0e1046
+Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@3e0e1046
+Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@798162bc
+Adding type registration true_false -> org.hibernate.type.TrueFalseType@49c90a9c
+Adding type registration yes_no -> org.hibernate.type.YesNoType@6f36c2f0
+Adding type registration byte -> org.hibernate.type.ByteType@5e3f861
+Adding type registration byte -> org.hibernate.type.ByteType@5e3f861
+Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@5e3f861
+Adding type registration character -> org.hibernate.type.CharacterType@642a7222
+Adding type registration char -> org.hibernate.type.CharacterType@642a7222
+Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@642a7222
+Adding type registration short -> org.hibernate.type.ShortType@13526e59
+Adding type registration short -> org.hibernate.type.ShortType@13526e59
+Adding type registration java.lang.Short -> org.hibernate.type.ShortType@13526e59
+Adding type registration integer -> org.hibernate.type.IntegerType@730d2164
+Adding type registration int -> org.hibernate.type.IntegerType@730d2164
+Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@730d2164
+Adding type registration long -> org.hibernate.type.LongType@769a1df5
+Adding type registration long -> org.hibernate.type.LongType@769a1df5
+Adding type registration java.lang.Long -> org.hibernate.type.LongType@769a1df5
+Adding type registration float -> org.hibernate.type.FloatType@28194a50
+Adding type registration float -> org.hibernate.type.FloatType@28194a50
+Adding type registration java.lang.Float -> org.hibernate.type.FloatType@28194a50
+Adding type registration double -> org.hibernate.type.DoubleType@61710c6
+Adding type registration double -> org.hibernate.type.DoubleType@61710c6
+Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@61710c6
+Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@7ac296f6
+Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@7ac296f6
+Adding type registration big_integer -> org.hibernate.type.BigIntegerType@18317edc
+Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@18317edc
+Adding type registration string -> org.hibernate.type.StringType@76b07f29
+Adding type registration java.lang.String -> org.hibernate.type.StringType@76b07f29
+Adding type registration nstring -> org.hibernate.type.StringNVarcharType@7d61eb55
+Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@638ef7ed
+Adding type registration url -> org.hibernate.type.UrlType@1f760b47
+Adding type registration java.net.URL -> org.hibernate.type.UrlType@1f760b47
+Adding type registration date -> org.hibernate.type.DateType@2ca26d77
+Adding type registration java.sql.Date -> org.hibernate.type.DateType@2ca26d77
+Adding type registration time -> org.hibernate.type.TimeType@7905a0b8
+Adding type registration java.sql.Time -> org.hibernate.type.TimeType@7905a0b8
+Adding type registration timestamp -> org.hibernate.type.TimestampType@19b843ba
+Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@19b843ba
+Adding type registration java.util.Date -> org.hibernate.type.TimestampType@19b843ba
+Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@1e13529a
+Adding type registration calendar -> org.hibernate.type.CalendarType@471a9022
+Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@471a9022
+Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@471a9022
+Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@4b2c5e02
+Adding type registration locale -> org.hibernate.type.LocaleType@5e17553a
+Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@5e17553a
+Adding type registration currency -> org.hibernate.type.CurrencyType@19b89d4
+Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@19b89d4
+Adding type registration timezone -> org.hibernate.type.TimeZoneType@24c22fe
+Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@24c22fe
+Adding type registration class -> org.hibernate.type.ClassType@2bec854f
+Adding type registration java.lang.Class -> org.hibernate.type.ClassType@2bec854f
+Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@39b43d60
+Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@39b43d60
+Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@6aa8e115
+Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@609bcfb6
+Adding type registration binary -> org.hibernate.type.BinaryType@4d6025c5
+Adding type registration byte[] -> org.hibernate.type.BinaryType@4d6025c5
+Adding type registration [B -> org.hibernate.type.BinaryType@4d6025c5
+Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@723e88f9
+Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@723e88f9
+Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@723e88f9
+Adding type registration image -> org.hibernate.type.ImageType@f627d13
+Adding type registration characters -> org.hibernate.type.CharArrayType@295cf707
+Adding type registration char[] -> org.hibernate.type.CharArrayType@295cf707
+Adding type registration [C -> org.hibernate.type.CharArrayType@295cf707
+Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@651aed93
+Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@651aed93
+Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@651aed93
+Adding type registration text -> org.hibernate.type.TextType@39d76cb5
+Adding type registration ntext -> org.hibernate.type.NTextType@14a50707
+Adding type registration blob -> org.hibernate.type.BlobType@48c76607
+Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@48c76607
+Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@1863d2fe
+Adding type registration clob -> org.hibernate.type.ClobType@6c61a903
+Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@6c61a903
+Adding type registration nclob -> org.hibernate.type.NClobType@5b3f61ff
+Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@5b3f61ff
+Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@275bf9b3
+Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@6a47b187
+Adding type registration serializable -> org.hibernate.type.SerializableType@61eaec38
+Adding type registration object -> org.hibernate.type.ObjectType@27adc16e
+Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@27adc16e
+Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@563e4951
+Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@4066c471
+Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@2b175c00
+Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@3eb81efb
+Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@1ae8bcbc
+Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@6cdba6dc
+Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@7d3d101b
+Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@30c8681
+HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+HHH000412: Hibernate Core {4.3.11.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5] -> [org.hibernate.dialect.MySQL5Dialect] (replacing [org.hibernate.dialect.MySQL5Dialect])
+Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5InnoDB] -> [org.hibernate.dialect.MySQL5InnoDBDialect] (replacing [org.hibernate.dialect.MySQL5InnoDBDialect])
+Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+Preparing to build session factory with filters : {}
+Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/supplychainmanagement]
+Database ->
+       name : MySQL
+    version : 8.0.26
+      major : 8
+      minor : 0
+Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.26 (Revision: 9aae1e450989d62c06616c1dcda3e404ef84df70)
+      major : 8
+      minor : 0
+JDBC version : 4.2
+Unexpected error trying to gauge level of JDBC REF_CURSOR support : Cannot invoke "Object.getClass()" because "obj" is null
+HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+Processing hbm.xml files
+Process annotated classes
+Binding entity from annotated class: com.severstal.model.Product
+Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+Import with entity name Product
+Bind entity com.severstal.model.Product on table Product
+Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Product), mappingColumn=product_id, insertable=true, updatable=true, unique=false}
+MetadataSourceProcessor property productId with lazy=false
+Attempting to locate auto-apply AttributeConverter for property [com.severstal.model.Product:productId]
+building SimpleValue for productId
+Building property productId
+Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Product), mappingColumn=product_price, insertable=true, updatable=true, unique=false}
+MetadataSourceProcessor property productPrice with lazy=false
+Attempting to locate auto-apply AttributeConverter for property [com.severstal.model.Product:productPrice]
+building SimpleValue for productPrice
+Building property productPrice
+Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Product), mappingColumn=product_shape, insertable=true, updatable=true, unique=false}
+MetadataSourceProcessor property productShape with lazy=false
+Attempting to locate auto-apply AttributeConverter for property [com.severstal.model.Product:productShape]
+building SimpleValue for productShape
+Building property productShape
+Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Product), mappingColumn=product_type, insertable=true, updatable=true, unique=false}
+MetadataSourceProcessor property productType with lazy=false
+Attempting to locate auto-apply AttributeConverter for property [com.severstal.model.Product:productType]
+building SimpleValue for productType
+Building property productType
+Starting fillSimpleValue for productId
+Starting fillSimpleValue for productPrice
+Starting fillSimpleValue for productShape
+Starting fillSimpleValue for productType
+Processing fk mappings (*ToOne and JoinedSubclass)
+Processing extends queue
+Processing extends queue
+Processing collection mappings
+Processing native query and ResultSetMapping mappings
+Processing association property references
+Creating tables' unique integer identifiers
+Processing foreign key constraints
+No JtaPlatform was specified, checking resolver
+No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Automatic flush during beforeCompletion(): disabled
+Automatic session close at end of transaction: disabled
+JDBC batch size: 15
+JDBC batch updates for versioned data: disabled
+Scrollable result sets: enabled
+Wrap result sets: disabled
+JDBC3 getGeneratedKeys(): enabled
+multi-tenancy strategy : NONE
+Connection release mode: auto
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+Using BatchFetchStyle : LEGACY
+Maximum outer join fetch depth: 2
+Default batch fetch size: 1
+Generate SQL with comments: disabled
+Order SQL updates by primary key: disabled
+Order SQL inserts for batching: disabled
+Default null ordering: none
+Query translator: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory
+HHH000397: Using ASTQueryTranslatorFactory
+Query language substitutions: {}
+JPA-QL strict compliance: disabled
+Second-level cache: enabled
+Query cache: disabled
+Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+Optimize cache for minimal puts: disabled
+Structured second-level cache entries: disabled
+Second-level cache direct-reference entries: disabled
+Automatic eviction of collection cache: disabled
+Statistics: disabled
+Deleted entity synthetic identifier rollback: disabled
+Default entity-mode: pojo
+Named query checking : enabled
+Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+Allow initialization of lazy state outside session : : disabled
+JTA Track by Thread: enabled
+Building session factory
+Session factory constructed with filter configurations : {}
+Instantiating session factory with properties: {hibernate.format_sql=true, java.specification.version=16, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, sun.arch.data.model=64, java.vendor.url=https://java.oracle.com/, sun.boot.library.path=C:\Users\Dibya\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin, sun.java.command=com.severstal.client.ClientTest, jdk.debug=release, java.specification.vendor=Oracle Corporation, java.version.date=2021-07-20, java.home=C:\Users\Dibya\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre, file.separator=\, java.vm.compressedOopsMode=32-bit, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, hibernate.hbm2ddl.auto=create, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=16.0.2+7-67, user.name=Dibya, hibernate.classLoader.application=jdk.internal.loader.ClassLoaders$AppClassLoader@579bb367, file.encoding=UTF-8, hibernate.current_session_context_class=org.springframework.orm.hibernate4.SpringSessionContext, java.io.tmpdir=C:\Users\Dibya\AppData\Local\Temp\, java.version=16.0.2, java.vm.specification.name=Java Virtual Machine Specification, sun.os.patch.level=, java.library.path=C:\Users\Dibya\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/Dibya/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin/server;C:/Users/Dibya/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin;C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Dibya\AppData\Local\Microsoft\WindowsApps;;C:\Users\Dibya\AppData\Local\Programs\Microsoft VS Code\bin;C:\WINDOWS\System32;;., java.vendor=Oracle Corporation, sun.io.unicode.encoding=UnicodeLittle, hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.class.path=C:\Users\Dibya\Desktop\supplychain\target\classes;C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\annotations-api.jar;C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\catalina-ant.jar;C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\catalina-ha.jar;C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\catalina-storeconfig.jar;C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\catalina-tribes.jar;C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\catalina.jar;C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\ecj-4.6.3.jar;C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\el-api.jar;C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\jasper-el.jar;C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\jasper.jar;C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\jaspic-api.jar;C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\jsp-api.jar;C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\servlet-api.jar;C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\tomcat-api.jar;C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\tomcat-coyote.jar;C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\tomcat-dbcp.jar;C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\tomcat-i18n-de.jar;C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\tomcat-i18n-es.jar;C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\tomcat-i18n-fr.jar;C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\tomcat-i18n-ja.jar;C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\tomcat-i18n-ko.jar;C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\tomcat-i18n-ru.jar;C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\tomcat-i18n-zh-CN.jar;C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\tomcat-jdbc.jar;C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\tomcat-jni.jar;C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\tomcat-util-scan.jar;C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\tomcat-util.jar;C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\tomcat-websocket.jar;C:\Program Files\Apache Software Foundation\Tomcat 8.5\lib\websocket-api.jar;C:\Users\Dibya\.m2\repository\org\springframework\spring-web\4.3.8.RELEASE\spring-web-4.3.8.RELEASE.jar;C:\Users\Dibya\.m2\repository\org\springframework\spring-aop\4.3.8.RELEASE\spring-aop-4.3.8.RELEASE.jar;C:\Users\Dibya\.m2\repository\org\springframework\spring-beans\4.3.8.RELEASE\spring-beans-4.3.8.RELEASE.jar;C:\Users\Dibya\.m2\repository\org\springframework\spring-context\4.3.8.RELEASE\spring-context-4.3.8.RELEASE.jar;C:\Users\Dibya\.m2\repository\org\springframework\spring-expression\4.3.8.RELEASE\spring-expression-4.3.8.RELEASE.jar;C:\Users\Dibya\.m2\repository\org\springframework\spring-core\4.3.8.RELEASE\spring-core-4.3.8.RELEASE.jar;C:\Users\Dibya\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Dibya\.m2\repository\org\hibernate\hibernate-core\4.3.11.Final\hibernate-core-4.3.11.Final.jar;C:\Users\Dibya\.m2\repository\org\jboss\logging\jboss-logging\3.1.3.GA\jboss-logging-3.1.3.GA.jar;C:\Users\Dibya\.m2\repository\org\jboss\logging\jboss-logging-annotations\1.2.0.Beta1\jboss-logging-annotations-1.2.0.Beta1.jar;C:\Users\Dibya\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.0.0.Final\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Users\Dibya\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Dibya\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Dibya\.m2\repository\org\hibernate\common\hibernate-commons-annotations\4.0.5.Final\hibernate-commons-annotations-4.0.5.Final.jar;C:\Users\Dibya\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\Dibya\.m2\repository\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar;C:\Users\Dibya\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Dibya\.m2\repository\org\jboss\jandex\1.1.0.Final\jandex-1.1.0.Final.jar;C:\Users\Dibya\.m2\repository\mysql\mysql-connector-java\8.0.26\mysql-connector-java-8.0.26.jar;C:\Users\Dibya\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;C:\Users\Dibya\.m2\repository\org\springframework\spring-orm\4.3.8.RELEASE\spring-orm-4.3.8.RELEASE.jar;C:\Users\Dibya\.m2\repository\org\springframework\spring-jdbc\4.3.8.RELEASE\spring-jdbc-4.3.8.RELEASE.jar;C:\Users\Dibya\.m2\repository\org\springframework\spring-tx\4.3.8.RELEASE\spring-tx-4.3.8.RELEASE.jar;C:\Users\Dibya\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Dibya\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar, java.vm.vendor=Oracle Corporation, user.variant=, user.timezone=Asia/Calcutta, java.vm.specification.version=16, os.name=Windows 10, sun.java.launcher=SUN_STANDARD, user.country=IN, sun.cpu.endian=little, user.home=C:\Users\Dibya, user.language=en, path.separator=;, os.version=10.0, java.runtime.name=OpenJDK Runtime Environment, java.vm.name=OpenJDK 64-Bit Server VM, hibernate.show_sql=true, java.vendor.url.bug=https://bugreport.java.com/bugreport/, user.dir=C:\Users\Dibya\Desktop\supplychain, os.arch=amd64, java.vm.info=mixed mode, java.vm.version=16.0.2+7-67, hibernate.bytecode.use_reflection_optimizer=false, hibernate.connection.datasource=org.springframework.jdbc.datasource.DriverManagerDataSource@63da207f, java.class.version=60.0}
+Skipping JACC integration as it was not enabled
+Setting dialect [org.hibernate.dialect.MySQLDialect]
+HHH000142: Javassist Enhancement failed: com.severstal.model.Product
+java.lang.reflect.InaccessibleObjectException: Unable to make protected final java.lang.Class java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain) throws java.lang.ClassFormatError accessible: module java.base does not "opens java.lang" to unnamed module @6e35bc3d
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:357)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:199)
+	at java.base/java.lang.reflect.Method.setAccessible(Method.java:193)
+	at javassist.util.proxy.SecurityActions.setAccessible(SecurityActions.java:103)
+	at javassist.util.proxy.FactoryHelper.toClass2(FactoryHelper.java:181)
+	at javassist.util.proxy.FactoryHelper.toClass(FactoryHelper.java:164)
+	at javassist.util.proxy.ProxyFactory.createClass3(ProxyFactory.java:507)
+	at javassist.util.proxy.ProxyFactory.createClass2(ProxyFactory.java:492)
+	at javassist.util.proxy.ProxyFactory.createClass1(ProxyFactory.java:428)
+	at javassist.util.proxy.ProxyFactory.createClass(ProxyFactory.java:400)
+	at org.hibernate.proxy.pojo.javassist.JavassistLazyInitializer.getProxyFactory(JavassistLazyInitializer.java:162)
+	at org.hibernate.proxy.pojo.javassist.JavassistProxyFactory.postInstantiate(JavassistProxyFactory.java:67)
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.buildProxyFactory(PojoEntityTuplizer.java:224)
+	at org.hibernate.tuple.entity.AbstractEntityTuplizer.<init>(AbstractEntityTuplizer.java:212)
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.<init>(PojoEntityTuplizer.java:80)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.hibernate.tuple.entity.EntityTuplizerFactory.constructTuplizer(EntityTuplizerFactory.java:135)
+	at org.hibernate.tuple.entity.EntityTuplizerFactory.constructDefaultTuplizer(EntityTuplizerFactory.java:188)
+	at org.hibernate.tuple.entity.EntityMetamodel.<init>(EntityMetamodel.java:403)
+	at org.hibernate.persister.entity.AbstractEntityPersister.<init>(AbstractEntityPersister.java:520)
+	at org.hibernate.persister.entity.SingleTableEntityPersister.<init>(SingleTableEntityPersister.java:148)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.create(PersisterFactoryImpl.java:163)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:135)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:401)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1859)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1930)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBuilder.buildSessionFactory(LocalSessionFactoryBuilder.java:372)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:454)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:439)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1531)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1531)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1531)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.severstal.client.ClientTest.main(ClientTest.java:16)
+HHH000305: Could not create proxy factory for:com.severstal.model.Product
+org.hibernate.HibernateException: HHH000142: Javassist Enhancement failed: com.severstal.model.Product
+	at org.hibernate.proxy.pojo.javassist.JavassistLazyInitializer.getProxyFactory(JavassistLazyInitializer.java:166)
+	at org.hibernate.proxy.pojo.javassist.JavassistProxyFactory.postInstantiate(JavassistProxyFactory.java:67)
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.buildProxyFactory(PojoEntityTuplizer.java:224)
+	at org.hibernate.tuple.entity.AbstractEntityTuplizer.<init>(AbstractEntityTuplizer.java:212)
+	at org.hibernate.tuple.entity.PojoEntityTuplizer.<init>(PojoEntityTuplizer.java:80)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.hibernate.tuple.entity.EntityTuplizerFactory.constructTuplizer(EntityTuplizerFactory.java:135)
+	at org.hibernate.tuple.entity.EntityTuplizerFactory.constructDefaultTuplizer(EntityTuplizerFactory.java:188)
+	at org.hibernate.tuple.entity.EntityMetamodel.<init>(EntityMetamodel.java:403)
+	at org.hibernate.persister.entity.AbstractEntityPersister.<init>(AbstractEntityPersister.java:520)
+	at org.hibernate.persister.entity.SingleTableEntityPersister.<init>(SingleTableEntityPersister.java:148)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.create(PersisterFactoryImpl.java:163)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:135)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:401)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1859)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1930)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBuilder.buildSessionFactory(LocalSessionFactoryBuilder.java:372)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:454)
+	at org.springframework.orm.hibernate4.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:439)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1531)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1531)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1531)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1276)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.severstal.client.ClientTest.main(ClientTest.java:16)
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make protected final java.lang.Class java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain) throws java.lang.ClassFormatError accessible: module java.base does not "opens java.lang" to unnamed module @6e35bc3d
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:357)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:199)
+	at java.base/java.lang.reflect.Method.setAccessible(Method.java:193)
+	at javassist.util.proxy.SecurityActions.setAccessible(SecurityActions.java:103)
+	at javassist.util.proxy.FactoryHelper.toClass2(FactoryHelper.java:181)
+	at javassist.util.proxy.FactoryHelper.toClass(FactoryHelper.java:164)
+	at javassist.util.proxy.ProxyFactory.createClass3(ProxyFactory.java:507)
+	at javassist.util.proxy.ProxyFactory.createClass2(ProxyFactory.java:492)
+	at javassist.util.proxy.ProxyFactory.createClass1(ProxyFactory.java:428)
+	at javassist.util.proxy.ProxyFactory.createClass(ProxyFactory.java:400)
+	at org.hibernate.proxy.pojo.javassist.JavassistLazyInitializer.getProxyFactory(JavassistLazyInitializer.java:162)
+	... 71 more
+Static SQL for entity: com.severstal.model.Product
+ Version select: select product_id from Product where product_id =?
+ Snapshot select: select product_.product_id, product_.product_price as product_2_0_, product_.product_shape as product_3_0_, product_.product_type as product_4_0_ from Product product_ where product_.product_id=?
+ Insert 0: insert into Product (product_price, product_shape, product_type, product_id) values (?, ?, ?, ?)
+ Update 0: update Product set product_price=?, product_shape=?, product_type=? where product_id=?
+ Delete 0: delete from Product where product_id=?
+ Identity insert: insert into Product (product_price, product_shape, product_type) values (?, ?, ?)
+Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@226eba67]
+Visiting attribute path : productPrice
+Visiting attribute path : productShape
+Visiting attribute path : productType
+Building LoadPlan...
+processing queryspace <gen:0>
+LoadPlan(entity=com.severstal.model.Product)
+    - Returns
+       - EntityReturnImpl(entity=com.severstal.model.Product, querySpaceUid=<gen:0>, path=com.severstal.model.Product)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.severstal.model.Product)
+          - SQL table alias mapping - product0_
+          - alias suffix - 0_
+          - suffixed key columns - {product_1_0_0_}
+
+Static select for entity com.severstal.model.Product [NONE]: select product0_.product_id as product_1_0_0_, product0_.product_price as product_2_0_0_, product0_.product_shape as product_3_0_0_, product0_.product_type as product_4_0_0_ from Product product0_ where product0_.product_id=?
+Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5533dc72]
+Visiting attribute path : productPrice
+Visiting attribute path : productShape
+Visiting attribute path : productType
+Building LoadPlan...
+processing queryspace <gen:0>
+LoadPlan(entity=com.severstal.model.Product)
+    - Returns
+       - EntityReturnImpl(entity=com.severstal.model.Product, querySpaceUid=<gen:0>, path=com.severstal.model.Product)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.severstal.model.Product)
+          - SQL table alias mapping - product0_
+          - alias suffix - 0_
+          - suffixed key columns - {product_1_0_0_}
+
+Static select for entity com.severstal.model.Product [READ]: select product0_.product_id as product_1_0_0_, product0_.product_price as product_2_0_0_, product0_.product_shape as product_3_0_0_, product0_.product_type as product_4_0_0_ from Product product0_ where product0_.product_id=?
+Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@64fc097e]
+Visiting attribute path : productPrice
+Visiting attribute path : productShape
+Visiting attribute path : productType
+Building LoadPlan...
+processing queryspace <gen:0>
+LoadPlan(entity=com.severstal.model.Product)
+    - Returns
+       - EntityReturnImpl(entity=com.severstal.model.Product, querySpaceUid=<gen:0>, path=com.severstal.model.Product)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.severstal.model.Product)
+          - SQL table alias mapping - product0_
+          - alias suffix - 0_
+          - suffixed key columns - {product_1_0_0_}
+
+Static select for entity com.severstal.model.Product [UPGRADE]: select product0_.product_id as product_1_0_0_, product0_.product_price as product_2_0_0_, product0_.product_shape as product_3_0_0_, product0_.product_type as product_4_0_0_ from Product product0_ where product0_.product_id=? for update
+Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5d5b5fa7]
+Visiting attribute path : productPrice
+Visiting attribute path : productShape
+Visiting attribute path : productType
+Building LoadPlan...
+processing queryspace <gen:0>
+LoadPlan(entity=com.severstal.model.Product)
+    - Returns
+       - EntityReturnImpl(entity=com.severstal.model.Product, querySpaceUid=<gen:0>, path=com.severstal.model.Product)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.severstal.model.Product)
+          - SQL table alias mapping - product0_
+          - alias suffix - 0_
+          - suffixed key columns - {product_1_0_0_}
+
+Static select for entity com.severstal.model.Product [UPGRADE_NOWAIT]: select product0_.product_id as product_1_0_0_, product0_.product_price as product_2_0_0_, product0_.product_shape as product_3_0_0_, product0_.product_type as product_4_0_0_ from Product product0_ where product0_.product_id=? for update
+Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6107165]
+Visiting attribute path : productPrice
+Visiting attribute path : productShape
+Visiting attribute path : productType
+Building LoadPlan...
+processing queryspace <gen:0>
+LoadPlan(entity=com.severstal.model.Product)
+    - Returns
+       - EntityReturnImpl(entity=com.severstal.model.Product, querySpaceUid=<gen:0>, path=com.severstal.model.Product)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.severstal.model.Product)
+          - SQL table alias mapping - product0_
+          - alias suffix - 0_
+          - suffixed key columns - {product_1_0_0_}
+
+Static select for entity com.severstal.model.Product [UPGRADE_SKIPLOCKED]: select product0_.product_id as product_1_0_0_, product0_.product_price as product_2_0_0_, product0_.product_shape as product_3_0_0_, product0_.product_type as product_4_0_0_ from Product product0_ where product0_.product_id=? for update
+Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@11ebb1b6]
+Visiting attribute path : productPrice
+Visiting attribute path : productShape
+Visiting attribute path : productType
+Building LoadPlan...
+processing queryspace <gen:0>
+LoadPlan(entity=com.severstal.model.Product)
+    - Returns
+       - EntityReturnImpl(entity=com.severstal.model.Product, querySpaceUid=<gen:0>, path=com.severstal.model.Product)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.severstal.model.Product)
+          - SQL table alias mapping - product0_
+          - alias suffix - 0_
+          - suffixed key columns - {product_1_0_0_}
+
+Static select for entity com.severstal.model.Product [FORCE]: select product0_.product_id as product_1_0_0_, product0_.product_price as product_2_0_0_, product0_.product_shape as product_3_0_0_, product0_.product_type as product_4_0_0_ from Product product0_ where product0_.product_id=? for update
+Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@f3021cb]
+Visiting attribute path : productPrice
+Visiting attribute path : productShape
+Visiting attribute path : productType
+Building LoadPlan...
+processing queryspace <gen:0>
+LoadPlan(entity=com.severstal.model.Product)
+    - Returns
+       - EntityReturnImpl(entity=com.severstal.model.Product, querySpaceUid=<gen:0>, path=com.severstal.model.Product)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.severstal.model.Product)
+          - SQL table alias mapping - product0_
+          - alias suffix - 0_
+          - suffixed key columns - {product_1_0_0_}
+
+Static select for entity com.severstal.model.Product [PESSIMISTIC_READ]: select product0_.product_id as product_1_0_0_, product0_.product_price as product_2_0_0_, product0_.product_shape as product_3_0_0_, product0_.product_type as product_4_0_0_ from Product product0_ where product0_.product_id=? lock in share mode
+Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6009bea]
+Visiting attribute path : productPrice
+Visiting attribute path : productShape
+Visiting attribute path : productType
+Building LoadPlan...
+processing queryspace <gen:0>
+LoadPlan(entity=com.severstal.model.Product)
+    - Returns
+       - EntityReturnImpl(entity=com.severstal.model.Product, querySpaceUid=<gen:0>, path=com.severstal.model.Product)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.severstal.model.Product)
+          - SQL table alias mapping - product0_
+          - alias suffix - 0_
+          - suffixed key columns - {product_1_0_0_}
+
+Static select for entity com.severstal.model.Product [PESSIMISTIC_WRITE]: select product0_.product_id as product_1_0_0_, product0_.product_price as product_2_0_0_, product0_.product_shape as product_3_0_0_, product0_.product_type as product_4_0_0_ from Product product0_ where product0_.product_id=? for update
+Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@75769ab0]
+Visiting attribute path : productPrice
+Visiting attribute path : productShape
+Visiting attribute path : productType
+Building LoadPlan...
+processing queryspace <gen:0>
+LoadPlan(entity=com.severstal.model.Product)
+    - Returns
+       - EntityReturnImpl(entity=com.severstal.model.Product, querySpaceUid=<gen:0>, path=com.severstal.model.Product)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.severstal.model.Product)
+          - SQL table alias mapping - product0_
+          - alias suffix - 0_
+          - suffixed key columns - {product_1_0_0_}
+
+Static select for entity com.severstal.model.Product [PESSIMISTIC_FORCE_INCREMENT]: select product0_.product_id as product_1_0_0_, product0_.product_price as product_2_0_0_, product0_.product_shape as product_3_0_0_, product0_.product_type as product_4_0_0_ from Product product0_ where product0_.product_id=? for update
+Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6ab4ba9f]
+Visiting attribute path : productPrice
+Visiting attribute path : productShape
+Visiting attribute path : productType
+Building LoadPlan...
+processing queryspace <gen:0>
+LoadPlan(entity=com.severstal.model.Product)
+    - Returns
+       - EntityReturnImpl(entity=com.severstal.model.Product, querySpaceUid=<gen:0>, path=com.severstal.model.Product)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.severstal.model.Product)
+          - SQL table alias mapping - product0_
+          - alias suffix - 0_
+          - suffixed key columns - {product_1_0_0_}
+
+Static select for entity com.severstal.model.Product [OPTIMISTIC]: select product0_.product_id as product_1_0_0_, product0_.product_price as product_2_0_0_, product0_.product_shape as product_3_0_0_, product0_.product_type as product_4_0_0_ from Product product0_ where product0_.product_id=?
+Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@664e5dee]
+Visiting attribute path : productPrice
+Visiting attribute path : productShape
+Visiting attribute path : productType
+Building LoadPlan...
+processing queryspace <gen:0>
+LoadPlan(entity=com.severstal.model.Product)
+    - Returns
+       - EntityReturnImpl(entity=com.severstal.model.Product, querySpaceUid=<gen:0>, path=com.severstal.model.Product)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.severstal.model.Product)
+          - SQL table alias mapping - product0_
+          - alias suffix - 0_
+          - suffixed key columns - {product_1_0_0_}
+
+Static select for entity com.severstal.model.Product [OPTIMISTIC_FORCE_INCREMENT]: select product0_.product_id as product_1_0_0_, product0_.product_price as product_2_0_0_, product0_.product_shape as product_3_0_0_, product0_.product_type as product_4_0_0_ from Product product0_ where product0_.product_id=?
+Static select for action ACTION_MERGE on entity com.severstal.model.Product: select product0_.product_id as product_1_0_0_, product0_.product_price as product_2_0_0_, product0_.product_shape as product_3_0_0_, product0_.product_type as product_4_0_0_ from Product product0_ where product0_.product_id=?
+Static select for action ACTION_REFRESH on entity com.severstal.model.Product: select product0_.product_id as product_1_0_0_, product0_.product_price as product_2_0_0_, product0_.product_shape as product_3_0_0_, product0_.product_type as product_4_0_0_ from Product product0_ where product0_.product_id=?
+Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@46cb98a3
+Registering SessionFactory: 383c5585-facb-4ff1-8fdd-788279b5024e (<unnamed>)
+Not binding SessionFactory to JNDI, no JNDI name configured
+Instantiated session factory
+Processing hbm.xml files
+Process annotated classes
+Processing fk mappings (*ToOne and JoinedSubclass)
+Processing extends queue
+Processing extends queue
+Processing collection mappings
+Processing native query and ResultSetMapping mappings
+Processing association property references
+Creating tables' unique integer identifiers
+Processing foreign key constraints
+Setting dialect [org.hibernate.dialect.MySQLDialect]
+Processing hbm.xml files
+Process annotated classes
+Processing fk mappings (*ToOne and JoinedSubclass)
+Processing extends queue
+Processing extends queue
+Processing collection mappings
+Processing native query and ResultSetMapping mappings
+Processing association property references
+Creating tables' unique integer identifiers
+Processing foreign key constraints
+Setting dialect [org.hibernate.dialect.MySQLDialect]
+Setting dialect [org.hibernate.dialect.MySQLDialect]
+HHH000227: Running hbm2ddl schema export
+Import file not found: /import.sql
+Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/supplychainmanagement]
+
+    drop table if exists Product
+
+    create table Product (
+        product_id integer not null auto_increment,
+        product_price integer,
+        product_shape varchar(255),
+        product_type varchar(255),
+        primary key (product_id)
+    )
+HHH000230: Schema export complete
+Checking 0 named HQL queries
+Checking 0 named SQL queries
+Statistics initialized [enabled=false]
+Finished creating instance of bean 'sessionFactory'
+Invoking afterPropertiesSet() on bean with name 'hibernateTemplate'
+Finished creating instance of bean 'hibernateTemplate'
+Finished creating instance of bean 'productDao'
+Finished creating instance of bean 'productService'
+Returning cached instance of singleton bean 'productDao'
+Returning cached instance of singleton bean 'hibernateTemplate'
+Returning cached instance of singleton bean 'sessionFactory'
+Returning cached instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@37d871c2]
+Returning cached instance of singleton bean 'lifecycleProcessor'
+Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
+Returning cached instance of singleton bean 'productService'
+Could not retrieve pre-bound Hibernate session
+org.hibernate.HibernateException: Could not obtain transaction-synchronized Session for current thread
+	at org.springframework.orm.hibernate4.SpringSessionContext.currentSession(SpringSessionContext.java:134)
+	at org.hibernate.internal.SessionFactoryImpl.getCurrentSession(SessionFactoryImpl.java:1014)
+	at org.springframework.orm.hibernate4.HibernateTemplate.doExecute(HibernateTemplate.java:326)
+	at org.springframework.orm.hibernate4.HibernateTemplate.executeWithNativeSession(HibernateTemplate.java:309)
+	at org.springframework.orm.hibernate4.HibernateTemplate.save(HibernateTemplate.java:618)
+	at com.severstal.dao.impl.ProductDaoImpl.createProduct(ProductDaoImpl.java:20)
+	at com.severstal.service.impl.ProductServiceImpl.addProduct(ProductServiceImpl.java:20)
+	at com.severstal.client.ClientTest.createProduct(ClientTest.java:29)
+	at com.severstal.client.ClientTest.main(ClientTest.java:18)
+Executing identity-insert immediately
+
+    insert 
+    into
+        Product
+        (product_price, product_shape, product_type) 
+    values
+        (?, ?, ?)
+Obtaining JDBC connection
+Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost:3306/supplychainmanagement]
+Obtained JDBC connection
+Natively generated identity: 1
+Releasing JDBC connection
+Released JDBC connection
+Closing org.springframework.context.support.ClassPathXmlApplicationContext@a74868d: startup date [Sat Sep 25 10:15:45 IST 2021]; root of context hierarchy
+Returning cached instance of singleton bean 'lifecycleProcessor'
+Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2002fc1d: defining beans [dataSource,productService,productDao,hibernateTemplate,sessionFactory,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0]; root of factory hierarchy
+Retrieved dependent beans for bean 'sessionFactory': [hibernateTemplate]
+Retrieved dependent beans for bean 'hibernateTemplate': [productDao]
+Retrieved dependent beans for bean 'productDao': [productService]
+Invoking destroy() on bean with name 'sessionFactory'
+HHH000031: Closing
+Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
